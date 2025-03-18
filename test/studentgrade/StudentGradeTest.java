@@ -30,11 +30,11 @@ public class StudentGradeTest {
         String result = StudentGrade.getGrade(mark);
         assertEquals(expResult, result);
     }
-    
+    @Test
     public void testGetGrade75() {
-        System.out.println("getGrade 85");
+        System.out.println("getGrade 75");
         int mark = 75;
-        String expResult = "F";
+        String expResult = "C";
         String result = StudentGrade.getGrade(mark);
         assertEquals(expResult, result);
     }
